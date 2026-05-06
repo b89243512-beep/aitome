@@ -7,11 +7,11 @@ const inter = Inter({ variable: "--font-inter", subsets: ["latin"], weight: ["40
 export const metadata: Metadata = {
   metadataBase: new URL("https://aitome.app"),
   title: {
-    default: "AItome — Free AI Slide Generator | Create Presentations from a Prompt",
-    template: "%s | AItome",
+    default: "AI Tome Presantation App - Free AI Slide Generator | Create Free PPT, Slides, Powerpoint",
+    template: "%s | AI Tome",
   },
   description:
-    "AItome is a free AI slide generator and presentation maker. Type any topic and AItome turns it into a polished, beautiful slide deck in seconds. Export to PowerPoint, Google Slides, or PDF. No design skills, no signup.",
+    "AI Tome is a free AI slide generator and presentation maker. Type any topic and AI Tome turns it into a polished, beautiful slide deck in seconds. Export to PowerPoint, Google Slides, or PDF. No design skills, no signup.",
   keywords: [
     "AI slide generator", "AI presentation maker", "AI PowerPoint generator",
     "free AI slide creator", "prompt to slides", "AI deck builder",
@@ -21,16 +21,16 @@ export const metadata: Metadata = {
     "AI keynote generator", "instant slides AI", "presentation AI tool",
   ],
   openGraph: {
-    title: "AItome — Free AI Slide Generator",
+    title: "AI Tome — Free AI Slide Generator",
     description: "Turn any prompt into a polished presentation in seconds. Free, fast, beautiful.",
     type: "website",
     url: "https://aitome.app",
-    siteName: "AItome",
+    siteName: "AI Tome",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AItome — Free AI Slide Generator",
+    title: "AI Tome — Free AI Slide Generator",
     description: "Generate beautiful slide decks from a single prompt. 100% free.",
   },
   robots: { index: true, follow: true },
@@ -46,7 +46,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "AItome",
+    name: "AI Tome",
     url: "https://aitome.app",
     logo: "https://aitome.app/logo.svg",
     description: "Free AI slide generator and presentation maker. Turn any topic into a polished deck in seconds.",
@@ -56,12 +56,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   const softwareSchema = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: "AItome",
+    name: "AI Tome",
     applicationCategory: "BusinessApplication",
     applicationSubCategory: "Presentation Software",
     operatingSystem: "Web, iOS, Android",
     description:
-      "AItome is a free AI-powered slide generator. Describe your topic and AItome creates a complete presentation deck with structured outline, content, and design — ready to edit and export.",
+      "AI Tome is a free AI-powered slide generator. Describe your topic and AI Tome creates a complete presentation deck with structured outline, content, and design — ready to edit and export.",
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
     aggregateRating: {
       "@type": "AggregateRating",
@@ -76,7 +76,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "AItome",
+    name: "AI Tome",
     url: "https://aitome.app",
     potentialAction: {
       "@type": "SearchAction",
@@ -89,11 +89,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
-      { "@type": "Question", name: "Is AItome free?", acceptedAnswer: { "@type": "Answer", text: "Yes. AItome's core slide generation is free with no signup required. Premium features for unlimited generations and advanced themes are optional." } },
-      { "@type": "Question", name: "What can I generate with AItome?", acceptedAnswer: { "@type": "Answer", text: "Pitch decks, lecture slides, business reports, conference talks, lesson plans, sales decks, board presentations, and more — anything you can describe in a sentence." } },
-      { "@type": "Question", name: "Can I edit the generated slides?", acceptedAnswer: { "@type": "Answer", text: "Yes. AItome produces a fully editable deck. You can change text, swap images, switch themes, reorder slides, and tweak any element before exporting." } },
+      { "@type": "Question", name: "Is AI Tome free?", acceptedAnswer: { "@type": "Answer", text: "Yes. AI Tome's core slide generation is free with no signup required. Premium features for unlimited generations and advanced themes are optional." } },
+      { "@type": "Question", name: "What can I generate with AI Tome?", acceptedAnswer: { "@type": "Answer", text: "Pitch decks, lecture slides, business reports, conference talks, lesson plans, sales decks, board presentations, and more — anything you can describe in a sentence." } },
+      { "@type": "Question", name: "Can I edit the generated slides?", acceptedAnswer: { "@type": "Answer", text: "Yes. AI Tome produces a fully editable deck. You can change text, swap images, switch themes, reorder slides, and tweak any element before exporting." } },
       { "@type": "Question", name: "Which formats can I export?", acceptedAnswer: { "@type": "Answer", text: "Export to .pptx (PowerPoint), .pdf, Google Slides, or share a public web link with view or edit access." } },
-      { "@type": "Question", name: "Does AItome support multiple languages?", acceptedAnswer: { "@type": "Answer", text: "Yes. AItome can generate presentations in over 30 languages including English, Turkish, German, French, Spanish, Portuguese, Russian, Japanese, Korean and Chinese." } },
+      { "@type": "Question", name: "Does AI Tome support multiple languages?", acceptedAnswer: { "@type": "Answer", text: "Yes. AI Tome can generate presentations in over 30 languages including English, Turkish, German, French, Spanish, Portuguese, Russian, Japanese, Korean and Chinese." } },
     ],
   };
 

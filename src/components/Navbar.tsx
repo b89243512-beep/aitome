@@ -7,7 +7,7 @@ export function Navbar() {
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5 font-bold text-lg">
           <Logo size={32} />
-          <span>AItome</span>
+          <span>AI Tome</span>
         </Link>
         <nav className="hidden md:flex items-center gap-7 text-sm text-[var(--muted)]">
           <Link href="/#features" className="hover:text-[var(--fg)]">Features</Link>

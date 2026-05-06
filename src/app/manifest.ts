@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "AItome — AI Slide Generator",
-    short_name: "AItome",
+    name: "AI Tome — AI Slide Generator",
+    short_name: "AI Tome",
     description: "Free AI slide generator. Turn any prompt into a polished presentation deck in seconds.",
     start_url: "/",
     display: "standalone",

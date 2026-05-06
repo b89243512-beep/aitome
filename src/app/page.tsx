@@ -37,16 +37,16 @@ export default function HomePage() {
               className="text-5xl md:text-7xl font-extrabold tracking-tight mb-5 leading-[1.05] animate-fade-up"
               style={{ animationDelay: "60ms" }}
             >
-              Beautiful AI slides
+              AI Tome Presantation App
               <br />
-              from a <span className="gradient-text">single prompt</span>.
+              <span className="gradient-text">Free AI Slide Generator</span>
             </h1>
 
             <p
               className="text-lg md:text-xl text-[var(--muted)] max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up"
               style={{ animationDelay: "120ms" }}
             >
-              AItome turns your topic into a polished, on-brand presentation deck in seconds.
+              AI Tome turns your topic into a polished, on-brand presentation deck in seconds.
               Pitch decks, lectures, sales reports — type a sentence, get a complete deck.
             </p>
 
@@ -143,7 +143,7 @@ export default function HomePage() {
                 Everything you need, <span className="gradient-text">none of the busywork.</span>
               </h2>
               <p className="text-lg text-[var(--muted)] max-w-2xl mx-auto">
-                AItome handles the structure, design, and visuals so you can focus on the message.
+                AI Tome handles the structure, design, and visuals so you can focus on the message.
               </p>
             </div>
 
@@ -151,7 +151,7 @@ export default function HomePage() {
               <Feature
                 icon={<Brain className="w-5 h-5" />}
                 title="Smart outline generation"
-                body="Type a topic and AItome drafts a logical, narrative-driven slide outline tailored to your audience."
+                body="Type a topic and AI Tome drafts a logical, narrative-driven slide outline tailored to your audience."
               />
               <Feature
                 icon={<Palette className="w-5 h-5" />}
@@ -198,8 +198,8 @@ export default function HomePage() {
             </div>
 
             <div className="grid md:grid-cols-3 gap-6">
-              <Step n={1} title="Describe your idea" body="Type a single sentence — or paste in raw notes. AItome works with anything from one-liners to long documents." />
-              <Step n={2} title="AI does the work" body="AItome generates a structured outline, writes the content, picks visuals, and applies a theme — all in seconds." />
+              <Step n={1} title="Describe your idea" body="Type a single sentence — or paste in raw notes. AI Tome works with anything from one-liners to long documents." />
+              <Step n={2} title="AI does the work" body="AI Tome generates a structured outline, writes the content, picks visuals, and applies a theme — all in seconds." />
               <Step n={3} title="Edit and export" body="Refine any slide in our visual editor, then export to PowerPoint, PDF, or Google Slides — or share a public link." />
             </div>
           </div>
@@ -216,7 +216,7 @@ export default function HomePage() {
                 Built for <span className="gradient-text">every kind of deck.</span>
               </h2>
               <p className="text-lg text-[var(--muted)] max-w-2xl mx-auto">
-                Pick a template to start fast, or describe your own and AItome will compose it from scratch.
+                Pick a template to start fast, or describe your own and AI Tome will compose it from scratch.
               </p>
             </div>
 
@@ -243,7 +243,7 @@ export default function HomePage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-14">
               <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-                People ship faster <span className="gradient-text">with AItome.</span>
+                People ship faster <span className="gradient-text">with AI Tome.</span>
               </h2>
             </div>
 
@@ -254,7 +254,7 @@ export default function HomePage() {
                 role="Founder, Loom Labs"
               />
               <Testimonial
-                quote="My students love the colour-coded lecture decks. AItome saves me about three hours of slide work per class."
+                quote="My students love the colour-coded lecture decks. AI Tome saves me about three hours of slide work per class."
                 name="Onur K."
                 role="University Lecturer"
               />
@@ -323,15 +323,15 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Questions, answered</h2>
-              <p className="text-[var(--muted)]">Quick answers to what people ask before trying AItome.</p>
+              <p className="text-[var(--muted)]">Quick answers to what people ask before trying AI Tome.</p>
             </div>
 
             <div className="space-y-3">
-              <Faq q="Is AItome really free?" a="Yes. The free tier covers up to five decks per month with full editing and PDF/PowerPoint export. No credit card required to start." />
+              <Faq q="Is AI Tome really free?" a="Yes. The free tier covers up to five decks per month with full editing and PDF/PowerPoint export. No credit card required to start." />
               <Faq q="What can I generate?" a="Pitch decks, sales decks, lecture and lesson slides, conference talks, product updates, board reports, lesson plans, study notes, marketing one-pagers, and basically anything else you can describe in a sentence." />
               <Faq q="Can I edit the slides afterwards?" a="Absolutely. Every slide is a fully editable canvas — change text, swap images, restructure the flow, switch themes, or rebuild a single slide from a new prompt." />
-              <Faq q="Which formats can I export?" a="PowerPoint (.pptx), PDF, and Google Slides. You can also share a public link or invite collaborators directly inside AItome." />
-              <Faq q="Does AItome work in my language?" a="Yes. AItome generates decks in over 30 languages, including English, Turkish, German, French, Spanish, Portuguese, Russian, Japanese, Korean, and Mandarin Chinese." />
+              <Faq q="Which formats can I export?" a="PowerPoint (.pptx), PDF, and Google Slides. You can also share a public link or invite collaborators directly inside AI Tome." />
+              <Faq q="Does AI Tome work in my language?" a="Yes. AI Tome generates decks in over 30 languages, including English, Turkish, German, French, Spanish, Portuguese, Russian, Japanese, Korean, and Mandarin Chinese." />
               <Faq q="What about my data and privacy?" a="Your prompts and decks are private to your account. We never train models on customer content. You can delete any deck at any time from your dashboard." />
               <Faq q="How long does generation take?" a="A 10-slide deck typically takes 8–15 seconds. More complex decks with custom illustrations can take up to 30 seconds." />
               <Faq q="Can teams collaborate?" a="Yes — Pro and Team plans include shared workspaces, comments, and live multi-user editing. Free users can share view-only links." />
@@ -344,7 +344,7 @@ export default function HomePage() {
                 style={{ background: "linear-gradient(90deg, #7C3AED, #A855F7, #EC4899)" }}
               >
                 <Wand2 className="w-4 h-4" />
-                Try AItome free
+                Try AI Tome free
               </Link>
             </div>
           </div>
@@ -365,7 +365,7 @@ export default function HomePage() {
               Stop staring at blank slides.
             </h2>
             <p className="relative text-lg text-white/90 max-w-2xl mx-auto mb-8">
-              Start with a prompt and let AItome do the heavy lifting. You'll have a polished deck before your coffee gets cold.
+              Start with a prompt and let AI Tome do the heavy lifting. You'll have a polished deck before your coffee gets cold.
             </p>
             <Link
               href="#generator"

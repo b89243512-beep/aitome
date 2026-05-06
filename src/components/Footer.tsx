@@ -8,7 +8,7 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-2.5 font-bold text-lg mb-3">
             <Logo size={28} />
-            <span>AItome</span>
+            <span>AI Tome</span>
           </div>
           <p className="text-sm text-[var(--muted)] max-w-xs leading-relaxed">
             Free AI slide generator. Turn any topic into a polished presentation deck in seconds.
@@ -42,7 +42,7 @@ export function Footer() {
       </div>
       <div className="border-t border-[var(--border)]">
         <p className="max-w-6xl mx-auto px-4 py-5 text-xs text-[var(--muted)] text-center">
-          &copy; {new Date().getFullYear()} AItome. All rights reserved.
+          &copy; {new Date().getFullYear()} AI Tome. All rights reserved.
         </p>
       </div>
     </footer>

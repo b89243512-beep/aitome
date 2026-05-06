@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How AItome handles your data. We never train models on your prompts or decks.",
+  description: "How AI Tome handles your data. We never train models on your prompts or decks.",
   alternates: { canonical: "https://aitome.app/privacy" },
 };
 
@@ -18,7 +18,7 @@ export default function Privacy() {
 
         <h2 className="text-xl font-bold mt-8 mb-3">In short</h2>
         <p className="text-[var(--muted)] mb-4 leading-relaxed">
-          AItome is built around a simple principle: your prompts and decks are yours. We do not train AI models on
+          AI Tome is built around a simple principle: your prompts and decks are yours. We do not train AI models on
           your content, we do not sell your data, and we keep collection to the minimum required to run the service.
         </p>
 
@@ -40,7 +40,7 @@ export default function Privacy() {
 
         <h2 className="text-xl font-bold mt-8 mb-3">Third-party services</h2>
         <p className="text-[var(--muted)] mb-4 leading-relaxed">
-          AItome uses third-party AI providers to generate content and images. Prompts may be sent to these providers
+          AI Tome uses third-party AI providers to generate content and images. Prompts may be sent to these providers
           for processing, governed by their own privacy terms and our data-processing agreements that prohibit using
           your content for training.
         </p>
